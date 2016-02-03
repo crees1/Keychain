@@ -22,13 +22,9 @@
 
 @implementation CDVKeychain
 
-- (CDVPlugin*) initWithWebView:(UIWebView*)theWebView
+- (void) initPlugin
 {
-    self = (CDVKeychain*)[super initWithWebView:(UIWebView*)theWebView];
-    if (self) {
 		// initialization here
-    }
-    return self;
 }
 
 
